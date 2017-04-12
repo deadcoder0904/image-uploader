@@ -2,7 +2,7 @@
   "name": "image-uploader",
   "version": "1.0.0",
   "description": "Simple Image Uploader using HTML,CSS,JQuery & Node JS",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
