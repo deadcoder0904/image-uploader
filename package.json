@@ -1,0 +1,23 @@
+{
+  "name": "image-uploader",
+  "version": "1.0.0",
+  "description": "Simple Image Uploader using HTML,CSS,JQuery & Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-fileupload": "^0.1.2",
+    "firebase": "^3.7.6",
+    "imgur": "^0.2.1",
+    "imgur-node-api": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
