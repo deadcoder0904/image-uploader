@@ -4,7 +4,8 @@ const path = require('path')
 const imgur = require('imgur')
 const fileUpload = require('express-fileupload')
 const fs = require('fs')
-const firebase = require('firebase');
+const firebase = require('firebase')
+const PORT = process.env.PORT || 3000
 
 firebase.initializeApp({
     databaseURL: 'https://image-uploader-72ff0.firebaseio.com'
@@ -85,6 +86,6 @@ app.post('/upload', (req, res) => {
 	}
 })
 
-app.listen(3000,() => {
-	console.log("Listening on localhost:3000");
+app.listen(PORT,() => {
+	console.log("Listening on localhost:"+PORT);
 })
