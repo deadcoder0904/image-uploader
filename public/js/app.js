@@ -79,7 +79,7 @@ $(document).ready(function() {
 	  	$( "#mygallery").append(items.join(""));
 		$("#mygallery").justifiedGallery({
 		    lastRow : 'nojustify',
-		    rowHeight : 100,
+		    rowHeight : 150,
 		    rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
 		    margins : 1
 		}).on('jg.complete', function () {
