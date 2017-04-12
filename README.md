@@ -6,7 +6,7 @@
 
 ![1](http://imgur.com/WZWDY5S.png)
 
-### Before Uploading
+### After Uploading
 
 ![2](http://imgur.com/H74HN4i.png)
 
