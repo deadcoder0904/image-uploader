@@ -30,7 +30,7 @@ $(document).ready(function() {
 	      processData: false,
 	      contentType: false,
 	      success: function(data){
-	          console.log('upload successful!\n' + data);
+	          console.log('upload successful!\n');
 	      },
 	      xhr: function() {
 	        // create an XMLHttpRequest
@@ -70,8 +70,8 @@ $(document).ready(function() {
 			const val = data.msg[i];
 			const key = i;
 		  	const item = `
-				<a href="${val}" data-lightbox="image-${key}" data-title="Title ${key}">
-			        <img alt="Title ${key}" src="${val}"/>
+				<a href="${val}" data-title="Image ${key + 1}" class='swipebox'>
+			        <img alt="Image ${key + 1}" src="${val}"/>
 			    </a>
 	    	`;
 	    	items.push(item);
@@ -79,11 +79,11 @@ $(document).ready(function() {
 	  	$( "#mygallery").append(items.join(""));
 		$("#mygallery").justifiedGallery({
 		    lastRow : 'nojustify',
-		    rowHeight : 150,
+		    rowHeight : 125,
 		    rel : 'gallery1', //replace with 'gallery1' the rel attribute of each link
 		    margins : 1
 		}).on('jg.complete', function () {
-
+			$('.swipebox').swipebox();
 		});
 	});
 
