@@ -8,7 +8,7 @@
 
 ### After Uploading
 
-![2](http://imgur.com/H74HN4i.png)
+![2](http://imgur.com/SwQulnv.png)
 
 ## License
 
